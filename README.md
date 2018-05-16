@@ -49,33 +49,33 @@ npm run dev
 
 #### 首页
 
-<img src="https://github.com/jianhui1012/bookreader/blob/master/screenshots/home.png" />
+<!-- <img src="https://github.com/jianhui1012/bookreader/blob/master/screenshots/home.png" /> -->
 
 #### 精选
 
-<img src="https://github.com/jianhui1012/bookreader/blob/master/screenshots/selection.png" />
+<!-- <img src="https://github.com/jianhui1012/bookreader/blob/master/screenshots/selection.png" /> -->
 
 #### 分类
 
-<img src="https://github.com/jianhui1012/bookreader/blob/master/screenshots/category.png" />
+<!-- <img src="https://github.com/jianhui1012/bookreader/blob/master/screenshots/category.png" /> -->
 
 #### 书单
 
-<img src="https://github.com/jianhui1012/bookreader/blob/master/screenshots/booklist.png" />
+<!-- <img src="https://github.com/jianhui1012/bookreader/blob/master/screenshots/booklist.png" /> -->
 
 #### 排行榜
 
-<img src="https://github.com/jianhui1012/bookreader/blob/master/screenshots/rank.png" />
+<!-- <img src="https://github.com/jianhui1012/bookreader/blob/master/screenshots/rank.png" /> -->
 
 #### 书籍详情
 
-<img src="https://github.com/jianhui1012/bookreader/blob/master/screenshots/book.png" />
+<!-- <img src="https://github.com/jianhui1012/bookreader/blob/master/screenshots/book.png" /> -->
 
 #### 阅读书籍
 
-<img src="https://github.com/jianhui1012/bookreader/blob/master/screenshots/read.png" />
+<!-- <img src="https://github.com/jianhui1012/bookreader/blob/master/screenshots/read.png" /> -->
 
 #### 搜索
 
-<img src="https://github.com/jianhui1012/bookreader/blob/master/screenshots/search.png" />
+<!-- <img src="https://github.com/jianhui1012/bookreader/blob/master/screenshots/search.png" /> -->
 
