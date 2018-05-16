@@ -26,7 +26,7 @@ npm run dev
 
 ```
 
-## 目标功能
+<!-- ## 目标功能
 
 - [x] 排行榜 -- 完成
 - [x] 书籍详情 -- 完成
@@ -37,45 +37,45 @@ npm run dev
 - [x] 分类书籍 -- 完成
 - [x] 主题书单 -- 完成
 - [x] 书单详情 -- 完成
-- [x] 主    页 -- 完成
+- [x] 主    页 -- 完成 -->
 
 
-# API接口文档
+<!-- # API接口文档 -->
 
-## [wiki接口文档地址](https://github.com/jianhui1012/bookreader/wiki/API-%E6%8E%A5%E5%8F%A3%E6%96%87%E6%A1%A3)
+<!-- ## [wiki接口文档地址](https://github.com/jianhui1012/bookreader/wiki/API-%E6%8E%A5%E5%8F%A3%E6%96%87%E6%A1%A3) -->
 
 
-## 部分截图
+<!-- ## 部分截图 -->
 
-#### 首页
+<!-- #### 首页 -->
 
 <!-- <img src="https://github.com/jianhui1012/bookreader/blob/master/screenshots/home.png" /> -->
 
-#### 精选
+<!-- #### 精选 -->
 
 <!-- <img src="https://github.com/jianhui1012/bookreader/blob/master/screenshots/selection.png" /> -->
 
-#### 分类
+<!-- #### 分类 -->
 
 <!-- <img src="https://github.com/jianhui1012/bookreader/blob/master/screenshots/category.png" /> -->
 
-#### 书单
+<!-- #### 书单 -->
 
 <!-- <img src="https://github.com/jianhui1012/bookreader/blob/master/screenshots/booklist.png" /> -->
 
-#### 排行榜
+<!-- #### 排行榜 -->
 
 <!-- <img src="https://github.com/jianhui1012/bookreader/blob/master/screenshots/rank.png" /> -->
 
-#### 书籍详情
+<!-- #### 书籍详情 -->
 
 <!-- <img src="https://github.com/jianhui1012/bookreader/blob/master/screenshots/book.png" /> -->
 
-#### 阅读书籍
+<!-- #### 阅读书籍 -->
 
 <!-- <img src="https://github.com/jianhui1012/bookreader/blob/master/screenshots/read.png" /> -->
 
-#### 搜索
+<!-- #### 搜索 -->
 
 <!-- <img src="https://github.com/jianhui1012/bookreader/blob/master/screenshots/search.png" /> -->
 
