@@ -5,10 +5,7 @@ import React, {Component} from "react";
 import {connect} from "react-redux";
 import {browserHistory} from "react-router";
 import api from "../modules/api/api";
-import {discoverCategoryList} from "../actions/categoryAction";
-import {discoverSingleMenuList} from "../actions/selectionAction";
-import {rankingList} from "../actions/rankingAction";
-import {getSpread} from "../actions/homeAction";
+import * as actions from '../actions';
 import {Carousel, BackTop} from "antd";
 import "./common/style/home.scss";
 
@@ -164,10 +161,8 @@ class Home extends Component {
 
     render() {
         const {home} = this.props;
-        //console.log(home);
         return <div className="page-home">
-            <BackTop />
-            <section className="container content">
+            <section className="container content"> 
                 <div className="content-left">
                     <div className="category">
                         <CategoryList title="男生" categoryList={home.tagsState ? home.tags.male : []}/>
@@ -221,29 +216,20 @@ class Home extends Component {
                 </div>
             </section>
             <section className="container"/>
+            <BackTop />
         </div>;
     }
 }
 
-const mapStateToProps = (store) => {
-    const {home} = store;
-    return {
-        home
-    }
-};
+const mapStateToProps = (store) => ({
+    home: store.home,
+});
 
 const mapDispatchToProps = (dispatch) => ({
-    getCategoryList: () => {
-        dispatch(discoverCategoryList())
-    },
-    getRankingList: (id) => {
-        dispatch(rankingList(id));
-    },
-    getSpread: () => {
-        dispatch(getSpread());
-    }, getDiscoverSingleMenuList: () => {
-        dispatch(discoverSingleMenuList());
-    },
+    getCategoryList: () => { dispatch(actions.categoryAction.discoverCategoryList()) },
+    getRankingList: (id) => { dispatch(actions.rankingAction.rankingList(id)) },
+    getSpread: () => { dispatch(actions.homeAction.getSpread()) }, 
+    getDiscoverSingleMenuList: () => { dispatch(actions.selectionAction.discoverSingleMenuList()) },
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Home);
