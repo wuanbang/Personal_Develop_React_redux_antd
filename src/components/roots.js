@@ -11,7 +11,7 @@ class Roots extends Component {
     constructor(props) {
         super(props);
         const docEl = document.body;
-        docEl.style.background = '#ffffff';
+        docEl.style.background = '#FFF';
     }
 
     render() {

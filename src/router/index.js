@@ -1,10 +1,9 @@
 /**
- * Created by golike on 2017/10/15.
+ * 建立公用 router 组件联系
  */
 import React from "react";
 import {browserHistory, Router, Route, IndexRoute} from "react-router";
-//公用页面
-import roots from "../components/roots";
+import { roots } from "../components"; //公用页面
 
 const home = (location, cb) => {
     require.ensure([], require => {
